@@ -1,4 +1,31 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "luangeles-mdlinks",
+  "version": "1.0.0",
+  "description": "Esta será una librería para validar los links dentro de archivos .md",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuAngeles/MEX008-FE-md-link.git"
+  },
+  "keywords": [
+    "links",
+    "readme",
+    "node",
+    "javascript"
+  ],
+  "author": "Guadalupe Isidro",
+  "license": "ISC",
+  "bin":{ 
+    "luangeles-mdlinks": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/LuAngeles/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/LuAngeles/MEX008-FE-md-link#readme"
 }
