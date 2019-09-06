@@ -1,0 +1,3 @@
+{
+    "presents":["@babel/preset-env"] //Con esto ya tenemos babel mysql,sql, mongo latam y cánada, reacto 98% subline//librerías node-fech, eslint areeglos y objetos, regenerator-rutime, marked
+}

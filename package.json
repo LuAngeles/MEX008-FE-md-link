@@ -7,25 +7,37 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LuAngeles/MEX008-FE-md-link.git"
   },
   "keywords": [
+    "node",
+    "npm",
+    "jest",
+    "pruebas",
+    "unitarias",
     "links",
     "readme",
     "node",
     "javascript"
   ],
-  "author": "Guadalupe Isidro",
-  "license": "ISC",
-  "bin":{ 
+  "author": "Guadalupe Isidro <luan.is9031@gmail.com>",
+  "license": "MIT", //MIT une todo lo que se está desarrollando hasta el momento// //ISC une todo//
+  "bin": {
     "luangeles-mdlinks": "./cli.js"
   },
   "bugs": {
     "url": "https://github.com/LuAngeles/MEX008-FE-md-link/issues"
   },
-  "homepage": "https://github.com/LuAngeles/MEX008-FE-md-link#readme"
+  "homepage": "https://github.com/LuAngeles/MEX008-FE-md-link#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
 }

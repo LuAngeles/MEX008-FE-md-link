@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('./utils/mdlinks-mgia-path.js/index.js');
 console.log('baia baia tacubaya')
 //1. Crear un archivo en la misma jerarquía que el index.js"//
 //2. Agregar dentro del cli.js #!/usr/bin/env node para que sepa que será ejecutado para node.js//
